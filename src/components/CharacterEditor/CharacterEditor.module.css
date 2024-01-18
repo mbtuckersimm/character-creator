@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -36,11 +37,11 @@
   max-width: 50%;
 }
 
-.perspectivePane {
-  background-color: hsl(195deg, 20%, 86%);
+.perspectiveEffect {
   position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 60%;
   height: 40%;
+  left: 0;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
